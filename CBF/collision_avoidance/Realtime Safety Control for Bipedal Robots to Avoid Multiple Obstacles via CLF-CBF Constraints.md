@@ -2,17 +2,44 @@
 
 ## Key Points
 
+**safety filter:**
+
+- safety monitor: handmake->saturate->combine multiple to one: product of smoothly saturated valid CBFs
+![20231130151122](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151122.png)
+![20231130151841](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151841.png)
+![20231130151911](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151911.png)
+
+- intervention scheme: QP
+![20231130151227](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151227.png)
+![20231130151254](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151254.png)
+![20231130151320](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151320.png)
+![20231130151352](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130151352.png)
+- task policy
+- fallback policy
+
 **开展的工作：**
 给定确定的双足机器人状态空间表达式，针对一个目标位置和一个障碍物的情况根据经验构造一个确定的CLF和CBF公式,构造CBF-CLF-QP；对该系统、单障碍物情况下的CLF-CBF-QP出现平衡点的情况进行分析（平衡点的数量、位置）;考虑多障碍物的情况，将针对单个障碍物构造的CBF先饱和处理之后利用乘法合成一个CBF；双足机器人在到达最终目标点时会经过许多中途设立的目标点，不同目标点切换时控制信号会不连续，采用平滑参考控制信号的方法使控制信号的运动轨迹连续。
 
+**future work:**
+无
+
+**对象：**
+Bipedal Robot
+
 **仿真工具：**
 MATLAB单障碍物仿真，ROS1(C++)多障碍物仿真
+
+**使用或开源的数据集：**
+无
 
 **是否开源：**
 是，网址：<https://github.com/UMich-BipedLab/multi_object_avoidance_via_clf_cbf>
 
 **摘要：**
 we propose a means to design and compose control barrier functions (CBFs) for multiple non-overlapping obstacles and evaluate the system on a 20-degree-of-freedom (DoF) bipedal robot.
+
+**Key Words：**
+Motion Planning, Autonomous Navigation, Obstacle Avoidance, Control Barrier Function, Control Lyapunov Function
 
 ## 1. Introduction and Contributions
 

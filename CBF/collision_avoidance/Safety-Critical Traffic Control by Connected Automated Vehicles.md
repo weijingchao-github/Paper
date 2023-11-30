@@ -5,11 +5,11 @@
 **safety filter:**
 ![20231130111453](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130111453.png)
 
-- safety monitor: handmake, multiple
+- safety monitor: handmake -> multiple
 ![20231130111414](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130111414.png)
 - intervention scheme: QP
 ![20231130111553](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231130111553.png)
-- task poicy
+- task policy
 - fallback policy
 
 **开展的工作：**
@@ -27,7 +27,7 @@ single-lane mixed traffic including a head HDV, a CAV and several following HDVs
 **仿真工具：**
 未提
 
-**使用或开源的数据集**
+**使用或开源的数据集：**
 We leverage the Next Generation Simulation (NGSIM) dataset that is widely used in transportation research.
 
 **是否开源：**
