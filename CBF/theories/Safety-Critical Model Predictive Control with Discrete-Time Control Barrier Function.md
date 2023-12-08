@@ -2,20 +2,6 @@
 
 ## Key Points
 
-缝合但是推断和分析的很好，分析并比较了这三种安全控制策略
-
-1. MPC-DC
-![20231202191952](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202191952.png)
-2. DCLF-DCBF
-![20231202192039](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202192039.png)
-3. MPC-CBF
-![20231202192129](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202192129.png)
-
-这篇文章揭示了在一些CBF避障的论文中，为什么智能体都是直挺挺的朝着前方障碍物走去，基本撞上前方障碍物，然后绕着障碍物走，即CBF起作用时刻的问题，并通过MPC这种多预测几个时间步的方法实现CBF的提前作用。
-![20231202160014](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202160014.png)
-
-在避障中，CBF的作用就是让智能体转向避障。
-
 **safety filter:**
 
 - safety monitor: handmake(consider just one)
@@ -29,6 +15,20 @@
 
 **开展的工作：**
 A safety-critical model predictive control design is proposed in this paper, where discrete-time control barrier function constraints are used in a receding horizon fashion to ensure safety. We present an analysis of its stability and feasibility, and describe its relation with MPC-DC and DCLF-DCBF. To verify our analysis, we use a 2D double integrator for obstacle avoidance, where we can see that MPC-CBF outperforms both MPC-DC and DCLF-DCBF. The proposed control logic is also applied to a more complex scenario: competitive car racing, where our ego car can race and safely overtake other racing cars.
+
+缝合但是推断和分析的很好，分析并比较了这三种安全控制策略
+
+1. MPC-DC
+![20231202191952](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202191952.png)
+2. DCLF-DCBF
+![20231202192039](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202192039.png)
+3. MPC-CBF
+![20231202192129](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202192129.png)
+
+这篇文章揭示了在一些CBF避障的论文中，为什么智能体都是直挺挺的朝着前方障碍物走去，基本撞上前方障碍物，然后绕着障碍物走，即CBF起作用时刻的问题，并通过MPC这种多预测几个时间步的方法实现CBF的提前作用。
+![20231202160014](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231202160014.png)
+
+在避障中，CBF的作用就是让智能体转向避障。
 
 **future work:**
 
