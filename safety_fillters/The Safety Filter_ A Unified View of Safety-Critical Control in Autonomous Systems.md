@@ -26,6 +26,8 @@
 
 #### 2.1.1 Dynamic modeling and predictive uncertainty
 
+1. The system is, in general, also subject to a **disturbance input**, denoted by d ∈ D, which captures the model's **predictive uncertainty**, including exogenous factors (e.g., wind), changes in operating conditions (e.g., motor wear), and overall modeling error.
+
 #### 2.1.2 Sensor modeling and perceptual uncertainty
 
 1. 主要是讨论了状态完全可观测和偏可观测这件事。

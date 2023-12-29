@@ -87,7 +87,7 @@ We analyze the stability of our control design, and qualitatively discuss the fe
 
 ## 2. BACKGROUND
 
-### A. Model Predictive Contro
+### A. Model Predictive Control
 
 1. 介绍了open-loop trajectory和closed-loop trajectory的概念。
 

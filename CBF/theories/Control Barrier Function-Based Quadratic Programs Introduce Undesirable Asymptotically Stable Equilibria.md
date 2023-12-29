@@ -5,9 +5,10 @@
 **摘要：**
 
 1. 提出问题：In this letter, we show that this framework(QP) can introduce equilibrium points (particularly at the boundary of the safe set) other than the minimum of the Lyapunov function into the closed-loop system. We derive explicit conditions under which these undesired equilibria (which can even appear in the simple case of linear systems with just one convex unsafe set) are asymptotically stable.
-2. 解决办法：To address this issue, we propose an extension to the QP-based controller unifying CLFs and CBFs such that the resulting system trajectories avoid the undesirable equilibria problem on the boundary of the safe set.（仅解决安全集边界平衡点的问题，并且该方法对系统等有一些假设）
+2. 分析QP导致的平衡点的存在性和稳定性。
+3. 解决办法：To address this issue, we propose an extension to the QP-based controller unifying CLFs and CBFs such that the resulting system trajectories avoid the undesirable equilibria problem on the boundary of the safe set.（仅解决安全集边界平衡点的问题，并且该方法对系统等有一些假设）
 ![20231204152020](https://cdn.jsdelivr.net/gh/weijingchao-github/image_hosting_service@main/picture_bed/20231204152020.png)
-3. The solution is illustrated in the design of a collision-free controller.
+4. The solution is illustrated in the design of a collision-free controller.
 
 ## 1. INTRODUCTION
 

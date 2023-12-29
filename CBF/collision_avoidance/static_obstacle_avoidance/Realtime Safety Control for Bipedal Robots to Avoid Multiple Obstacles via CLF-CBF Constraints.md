@@ -100,6 +100,8 @@ Motion Planning, Autonomous Navigation, Obstacle Avoidance, Control Barrier Func
 
 ### 3.5 Analysis for Unwanted Equilibria
 
+1. Paper [19] points out very clearly that the CLF-CBF-QP formulation of Sec. 3.4 can introduce unwanted equilibria that may prevent the robot from reaching a goal state. The paper [20] also considered this problem and noted that if the equilibria are unstable, then liveness is preserved for almost all initial conditions.
+
 ## 4. Combining CBFs for Multiple Obstacles
 
 1. A key innovation with respect to [46] is that we will compose the associated CBFs in a smooth (C1) manner. A potential drawback with respect to [46] is that we will assume the obstacles giving rise to the CBFs are a positive distance apart. Similar to [47], we saturate standard quadratic CBFs before seeking to combine them. Distinct from [47], we multiply the saturated CBFs instead of creating a weighted sum.

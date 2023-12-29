@@ -5,6 +5,8 @@
 本文研究多智能体互相躲避(如two agents negotiating the passing order through an intersection)的liveness, collisions, and feasibility，以及平衡点的结构、稳定性与死锁(gridlock)的关系等问题，涉及Centralized, DF, DR, CCS and PCCA这5种算法。
 **比较深奥，暂时看不懂**
 
+给出的一个研究展望：it is not known to the authors how to design a control policy that creates unstable equilibria or modify an existing one to have this property.
+
 ## 1. Introduction
 
 1. 本文研究多智能体互相躲避的liveness, collisions, and feasibility，以及平衡点的结构、稳定性与死锁的关系等问题。
