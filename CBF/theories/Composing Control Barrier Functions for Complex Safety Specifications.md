@@ -56,8 +56,8 @@ In this letter, we propose a framework to describe compositional safety specific
 
 1. 介绍了直接使用多个CBF作为约束能得到可行解的情况
    这种方法存在的问题：1）多CBF约束下QP可能不存在可行解；->合成一个CBF，尽管安全集可能更保守些，但肯定存在可行解。
-
 2. 通过介绍直接使用多个CBF作为约束求可行解的困难情况，This highlights that multiple CBFs are more challenging to use than a single one.
+**思考：**多CBF约束下QP可能不存在可行解是不是这种形式不好，合成一个CBF后能否以原各安全集的交集作为安全集并且求解可行，还是说必须牺牲安全集的范围来换取解的可行性。
 
 ## 3. COMPLEX SAFETY SPECIFICATIONS
 

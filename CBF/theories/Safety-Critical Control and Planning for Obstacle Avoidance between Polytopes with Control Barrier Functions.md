@@ -16,7 +16,7 @@
 **开展的工作：**
 
 1. NMPC-DCBF
-2. 各种提升求解速度的方法，主要通过将约束通过数学转变成计算效率高的形式以及调参
+2. 各种提升求解速度的方法（文章后半部分都是这个），主要通过将约束通过数学方法转变成计算效率高的形式、设置好的初始值以及调参
 3. 仿真多边形智能体通过多边形障碍物的情况
 
 - We formulate the dual form of the obstacle avoidance constraint between polytopes as DCBF constraints for safety. These proposed DCBF constraints are incorporated into an NMPC formulation which enables fast online computation for control and planning for general nonlinear dynamical systems.
@@ -108,7 +108,7 @@ Python，非线性求解器CasADi+ipopt
 
 ### D. Complexity and Performance
 
-1. 通过进一步改写DCBF约束来提升计算效率。
+1. 通过进一步改写DCBF约束来提升计算效率Exponential DCBF Constraint
 2. 选择MPC和DCBF的窗口长度
    Our NMPCDCBF formulation does not require the obstacle avoidance horizon length NCBF be equal to N , which additionally reduces the complexity [33].
 3. To sum up, DCBF constraints with dual variables enable fast optimization for obstacle avoidance between polytopes.
