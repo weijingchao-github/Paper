@@ -4,7 +4,7 @@
 
 **开展的工作：**
 
-- 在不同条件的假设和设定下，提出了3种满足输入约束条件的RCBF合成公式，3种合成公式分别对应着不同的假设：We have presented three forms for RCBFs for relativedegree 2 systems that constructively consider input constraints and disturbance bounds to ensure the RCBF condition is always feasible in the presence of input constraints.结果是Thus, systems meeting the theorem requirements are guaranteed to have safe closed-loop trajectories despite the input constraints and disturbances.
+- 在不同条件的假设和设定下，提出了3种满足输入约束条件的RCBF合成公式，3种合成公式分别对应着不同的假设：We have presented three forms for RCBFs for relative degree 2 systems that constructively consider input constraints and disturbance bounds to ensure the RCBF condition is always feasible in the presence of input constraints.结果是Thus, systems meeting the theorem requirements are guaranteed to have safe closed-loop trajectories despite the input constraints and disturbances.
 - 提出了一种磁滞开关方法来使RCBF减少对安全集内部很里面的状态对输入量的限制与约束（方法效果介于CBF和CBC之间），对应着讲了一种class-K func和开关界限的设计方法：We also introduced a switching approach for enforcing the RCBF condition only near the boundary of the inner safe set, and a class-K-like function that allows us to predict how close the state will approach the boundary of this set as a function of the disturbance.（可以从这一节参考下class-K func的设计，和磁滞开关的设计相匹配）
 - 仿真验证
 
